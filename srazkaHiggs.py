@@ -7,6 +7,8 @@ print("imaginary error fixed")
 
 print("hello from small-change-higgs")
 
+print("pozdrav z githubu")
+
 pythia = pythia8.Pythia("",False)
 ConfigVariable=sys.argv[1]
 pythia.readFile(ConfigVariable)

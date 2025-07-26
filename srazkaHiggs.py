@@ -7,7 +7,10 @@ print("imaginary error fixed")
 
 print("hello from small-change-higgs")
 
-print("pozdrav z githubu")
+def random_function(number):
+        power = number*number
+        print(f"Your number is {number} and your number to the power of 2 is {power}.")
+random_function(int(sys.argv[4]))
 
 pythia = pythia8.Pythia("",False)
 ConfigVariable=sys.argv[1]
